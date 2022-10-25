@@ -1,0 +1,48 @@
+.login {
+    max-width: 1240px;
+    height: 100vh;
+    margin: auto;
+
+    .container {
+        display: grid;
+        place-content: center;
+        height: 100%;
+
+        .form-group {
+            background-color: #fff;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 1rem;
+
+            .labelName,
+            .labelPassword {
+                font-size: 0.75rem;
+                display: block;
+            }
+
+            .labelPassword {
+                margin-top: 0.5rem;
+            }
+
+            .inputName,
+            .inputPassword {
+                width: 100%;
+                padding: 0.5rem;
+                display: block;
+            }
+
+            .btnLogin {
+                min-width: 100%;
+                height: 30px;
+                display: block;
+                margin: 1rem 0;
+                cursor: pointer;
+                border: none;
+                background-color: blue;
+                border-radius: 1rem;
+                color: #fff;
+                font-weight: 600;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

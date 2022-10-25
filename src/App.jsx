@@ -1,9 +1,12 @@
+import { Outlet } from 'react-router-dom';
+import Login from './pages/login/Login';
 
 function App() {
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <Login/>
+      <Outlet/>
+    </>
   )
 }
 
