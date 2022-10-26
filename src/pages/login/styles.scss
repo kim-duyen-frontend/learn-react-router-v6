@@ -15,6 +15,7 @@
 
             form {
                 width: 300px;
+
                 .labelName,
                 .labelPassword {
                     font-size: 0.75rem;
@@ -30,7 +31,8 @@
                     width: 100%;
                     padding: 0.5rem;
                     display: block;
-                    &:focus{
+
+                    &:focus {
                         outline: none;
                     }
                 }
