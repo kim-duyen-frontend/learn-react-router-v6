@@ -6,9 +6,7 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="container">
-                <Link to="/home">
-                    <a>Home</a>
-                </Link>
+                <Link to="/home">Home</Link>
             </div>
         </div>
     );
