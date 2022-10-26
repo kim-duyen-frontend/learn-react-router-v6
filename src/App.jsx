@@ -11,9 +11,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/home" element={<Home />} />
         <Route element={<PrivateRouter />}>
-          <Route />
+          <Route path="/home" element={<Home />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

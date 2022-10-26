@@ -34,9 +34,9 @@ const Login = () => {
             }
         }
         moveDataSuccess();
-    }, [])
+    })
 
-    // console.log("receive data of api: ", data);
+    console.log("receive data of api: ", data);
     return (
         <div className="login">
             <div className="container">
