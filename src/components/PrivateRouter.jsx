@@ -1,11 +1,8 @@
 import React from 'react';
+import { Navigate, Outlet } from 'react-router-dom';
 
-function PrivateRouter() {
-    return (
-        <div>
-            <h1>fhsdj</h1>
-        </div>
-    );
+function PrivateRouter({ isLogged }) {
+    return isLogged ? <Outlet /> : <Navigate to="/" />
 }
 
 export default PrivateRouter;
