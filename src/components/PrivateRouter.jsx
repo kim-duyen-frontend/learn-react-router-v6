@@ -1,8 +1,9 @@
 import React from 'react';
-import { Navigate, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import Access from "../components/Access";
 
 function PrivateRouter() {
-    return localStorage.getItem("token") ? <Outlet /> : <Navigate to="/" />
+    return localStorage.getItem("token") ? <Outlet /> : <Access/>
 }
 
 export default PrivateRouter;
